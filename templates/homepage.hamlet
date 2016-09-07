@@ -1,5 +1,5 @@
-<div class="ui inverted vertical center aligned segment masthead">
-    <div class="ui text container">
+<div class="masthead">
+    <div class="container">
         <h1 class="ui inverted header">
             Yesod; A modern framework for blazing fast websites
         <h2>
