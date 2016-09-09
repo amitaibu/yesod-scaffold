@@ -120,7 +120,8 @@
            <div class="col-lg-4 col-lg-offset-1">
                <div class="bs-callout bs-callout-info">
                    <small>
-                       Your comments will appear here...
+                       Your comments will appear here. You can also open the
+                       console log to see the raw response from the server.
                    <ul ##{commentListId}>
 
     <hr>
