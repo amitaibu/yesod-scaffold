@@ -1,15 +1,16 @@
 <div class="masthead">
     <div class="container">
-        <h1 class="ui inverted header">
-            Yesod; A modern framework for blazing fast websites
-        <h2>
-            Fast, Stable & spiced with great community
-        <a href="http://www.yesodweb.com/book/" class="ui huge primary button">
-            Read the Book
-            <i class="right arrow icon">
+        <div class="row">
+            <h1 class="header">
+                Yesod; A modern framework for blazing fast websites
+            <h2>
+                Fast, Stable & spiced with great community
+            <a href="http://www.yesodweb.com/book/" class="btn btn-info">
+                Read the Book
+                <i class="right arrow icon">
 
 
-<div class="ui container">
+<div class="container">
     <h2>
         <a href="#" name="start">Starting
 
