@@ -33,7 +33,7 @@
             <li class="active">#{title}
 
     $maybe msg <- mmsg
-      <div.ui.message #message>#{msg}
+      <div.alert.alert-info #message>#{msg}
 
 ^{widget}
 

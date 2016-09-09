@@ -94,3 +94,7 @@
 .bs-docs-section:last-child {
   margin-bottom: 0;
 }
+
+#message {
+    margin-bottom: 40px;
+}
