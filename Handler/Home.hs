@@ -1,8 +1,7 @@
 module Handler.Home where
 
 import Import
-import Yesod.Form.Bootstrap3 (BootstrapFormLayout (..), BootstrapGridOptions (..),
-                              renderBootstrap3)
+import Yesod.Form.Bootstrap3 (BootstrapFormLayout (..), renderBootstrap3)
 import Text.Julius (RawJS (..))
 
 -- Define our data that will be used for creating the form.
@@ -44,15 +43,9 @@ postHomeR = do
         $(widgetFile "homepage")
 
 sampleForm :: Form FileForm
-sampleForm = renderBootstrap3 bootstrapForm $ FileForm
+sampleForm = renderBootstrap3 BootstrapBasicForm $ FileForm
     <$> fileAFormReq "Choose a file"
     <*> areq textField "What's on the file?" Nothing
-    where bootstrapForm = BootstrapHorizontalForm
-                { bflLabelOffset = ColLg 0
-                , bflLabelSize = ColLg 2
-                , bflInputOffset = ColLg 0
-                , bflInputSize = ColLg 10
-                }
 
 commentIds :: (Text, Text, Text)
 commentIds = ("js-commentForm", "js-createCommentTextarea", "js-commentList")
